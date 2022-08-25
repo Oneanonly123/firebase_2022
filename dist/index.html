@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireBase 9</title>
+  </head>
+  <body>
+    <h1>Getting Started with FireBase 9</h1>
+
+    <h2>Firebase Store</h2>
+    <form class="add">
+      <label for="title">Title:</label>
+      <input type="text" name="title" required />
+      <label for="author">Author:</label>
+      <input type="text" name="author" required />
+
+      <button>add a new book</button>
+    </form>
+
+    <form class="delete">
+      <label for="id">Document id:</label>
+      <input type="text" name="id" required />
+
+      <button>delete a book</button>
+    </form>
+
+    <form class="update">
+      <label for="id">Document id:</label>
+      <input type="text" name="id" required />
+
+      <button>update a book</button>
+    </form>
+
+    <h2>Firebase Auth</h2>
+    <form class="signup">
+      <label for="email">Email</label>
+      <input type="email" name="email" />
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+      <button>Signup</button>
+    </form>
+
+    <h2>Firebase Login</h2>
+    <form class="login">
+      <label for="email">Email</label>
+      <input type="email" name="email" />
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+      <button>Login</button>
+    </form>
+
+    <button class="logout">Logout</button>
+
+    <h2>Unsubscribing from Everything</h2>
+
+    <button class="unsub">Unsubscribe all</button>
+    <script src="bundle.js"></script>
+  </body>
+</html>
